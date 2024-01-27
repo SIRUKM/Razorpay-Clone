@@ -107,25 +107,32 @@
 
     <!--hero section-->
     <section class="relative bg-deepBlue">
-      <div class="w-10/12 flex flex-row justify-between items-center mx-auto">
+      <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
         <!--left part-->
-        <div class="flex flex-col gap-4">
-          <h1>Power your finacnce, grow your bussiness</h1>
+        <div class="space-y-8">
+          <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finacnce, grow your bussiness</h1>
           <div class="w-6 h-1 bg-greenLight"></div>
-          <p>
+          <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
             Accepts payment from customers. Automate payment to vendors &
             employees. Never run out of working capital.
           </p>
-          <button>Sign Up Now</button>
+          <button class="bg-lightBlue text-white rounded-md font-mullish font-bold  py-[18px] px-[5px] hover:bg-lightBlue500 transition-all duration-200">Sign Up Now</button>
         </div>
 
         <!--right part -->
-        <img src="/images/hero-illustration.jpg" alt="" />
+        <img src="/images/hero-illustration.jpg" alt=""  class="w-full max-w-[680px]"/>
       </div>
 
-      <div>
-        <img src="/images/hero-shape.svg" alt="">
+
+      <!--shape part-->
+      <div class="w-[103%] absolute left-0 right-0">
+        <img src="/images/hero-shape.svg" alt="" class="w-full">
       </div>
+
+
     </section>
+
+
+    
   </body>
 </html>
