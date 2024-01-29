@@ -14,6 +14,15 @@
       rel="stylesheet"
     />
     <style>
+      .corefeaturesection{
+            background-size: 100% 100%;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+        }
+
+        .ctaSection{
+          background-size: 100% 100%;
+        }
       .companiesList {
         animation: 10s infinite linear companiesList;
       }
@@ -364,7 +373,7 @@
 
       <!-- demobox -->
       <div
-        class="flex content-center justify-evenly border border-slate-700 mb-24 gap-y-6 gap-x-6 relative rounded-md p-8 mt-[60px] max-w-[1080px]"
+        class="flex content-center justify-evenly border border-slate-700 mb-24 gap-y-6 gap-x-6 relative rounded-md p-8 mt-[60px] max-w-[1080px] justify-center"
       >
         <p class="font-mullish text-white text-xl">
           Check out the live demo how razorpayX works.
@@ -516,6 +525,55 @@
           <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
           <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
         </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section
+      class="bg-[url(/images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection"
+    >
+      <!-- main content box -->
+      <div
+        class="11/12 max-w-[1080px] relative flex flex-row items-center mx-auto justify-between space-x-20"
+      >
+        <!-- left part -->
+        <div class="flex flex-col gap-5 mt-12">
+          <h2 class="font-mullish font-bold text-2xl text-white">
+            Supercharge your business with Razorpay
+          </h2>
+          <div class="w-6 h-1 bg-greenLight"></div>
+          <p class="font-mullish text-white">
+            Sign up now to experience the future of payments and offer <br />
+            your customers the best checkout experience.
+          </p>
+
+          <ul class="flex flex-row flex-wrap gap-x-11 gap-y-2 text-white">
+            <li class="font-mullish text-white flex flex-row">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>Quick Onboarding </span>
+            </li>
+            <li class="font-mullish text-white flex flex-row">
+              <i data-feather="check" class="text-greenLight"></i>
+
+              <span>Access to entire product suite </span>
+            </li>
+            <li class="font-mullish text-white flex flex-row">
+              <i data-feather="check" class="text-greenLight"></i>
+
+              <span>API access </span>
+            </li>
+            <li class="font-mullish text-white flex flex-row">
+              <i data-feather="check" class="text-greenLight"></i>
+
+              <span>24x7 support </span>
+            </li>
+          </ul>
+
+          <button class="min-w-[32px] font-mullish text-sm font-bold bg-white text-lightBlue300 border flex rounded-sm items-center hover:text-lightBlue500 transition-all duration-200 py-3 px-4 place-self-start bg-lightGray500">Sign Up</button>
+        </div>
+
+        <!-- right side -->
+        <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" class="m-[100px]"/>
       </div>
     </section>
 
